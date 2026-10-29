@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "hungerhorror",
+  "version": "${version}",
+  "name": "Hunger Horror",
+  "description": "When your hunger drops too low, something starts hunting you. RUN.",
+  "authors": [],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.hungerhorror.HungerHorrorMod"],
+    "client": ["com.hungerhorror.HungerHorrorClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "entity.hungerhorror.the_hunger": "The Hunger",
+  "death.attack.hunger_monster": "%1$s Made a Mistake",
+  "death.attack.hunger_monster.player": "%1$s Made a Mistake"
+}
