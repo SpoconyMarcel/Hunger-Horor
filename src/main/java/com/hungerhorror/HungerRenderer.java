@@ -12,7 +12,7 @@ import net.minecraft.util.Identifier;
             Identifier.of(HungerHorrorMod.MOD_ID, "textures/entity/the_hunger.png");
 
     public HungerRenderer(EntityRendererFactory.Context context) {
-        super(context, new ZombieEntityModel<>(context.getPart(HungerHorrorClient.HUNGER_LAYER)), 0.5f);
+   super(context, new HungerModel(context.getPart(HungerHorrorClient.HUNGER_LAYER)), 0.5f);
         this.addFeature(new HungerEyesLayer(this));
     }
 
