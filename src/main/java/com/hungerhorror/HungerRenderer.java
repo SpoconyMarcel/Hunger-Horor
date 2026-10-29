@@ -7,7 +7,7 @@ import net.minecraft.client.util.math.MatrixStack;
 import net.minecraft.util.Identifier;
 
 /** 3D model: tall, thin humanoid with pale arms, empty face and glowing red eyes. */
-public class HungerRenderer extends MobEntityRenderer<HungerEntity, ZombieEntityModel<HungerEntity>> {
+   public class HungerRenderer extends MobEntityRenderer<HungerEntity, HungerModel> {
     private static final Identifier TEXTURE =
             Identifier.of(HungerHorrorMod.MOD_ID, "textures/entity/the_hunger.png");
 
